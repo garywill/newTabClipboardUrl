@@ -1,0 +1,22 @@
+{
+    "name": "New Tab Clipboard Url",
+    "description": "Quickly create new tab opening URL from clipboard",
+    "manifest_version": 2,
+    "version": "1.0",
+    "homepage_url": "https://garywill.github.io",
+    "developer": {
+        "name": "Garywill",
+        "url": "https://github.com/garywill"
+    },
+    "permissions": [
+        "menus",
+        "clipboardRead"
+    ],
+    "icons": {
+        "128": "icon.svg"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+
+} 
